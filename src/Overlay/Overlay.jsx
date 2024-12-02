@@ -413,9 +413,9 @@ export default function Overlay() {
                   <strong>Referral & Level Income</strong>
                   <div className="card-wrapper">
                     <div className="card">
-                      <h2>10%</h2>
+                      <h2>20%</h2>
                       <p>
-                        Earn 10% on direct referrals<br></br> and unlock up to <strong>25 </strong>
+                        Earn 20% on direct referrals<br></br> and unlock up to <strong>25 </strong>
                         levels of <br></br>additional rewards, empowering <br></br>you to grow
                         alongside the <br></br>community.
                       </p>
@@ -643,14 +643,15 @@ export default function Overlay() {
           <h3>USDX</h3>
           {/* <p>Stability Perfected, Freedom Unleashed</p> */}
           <div className="social">
-            <img src="instagram.svg" width={30} />
-            <img src="youtube.svg" width={30} />
-            <img src="linkedin.svg" width={30} />
+            <img src="instagram.svg" width={20} />
+            <img src="youtube.svg" width={20} />
+            <img src="x.svg" width={20} />
+            <img src="telegram.svg" width={20} />
           </div>
           <p className="copyright">Copyright @tmc.live All rights reserved.</p>
         </div>
         <div className="footer-right">
-          <img src="brand.png" width={80} />
+          <img src="brand.png" width={40} />
 
           {/* <ul>
             <li>Privacy policy</li>

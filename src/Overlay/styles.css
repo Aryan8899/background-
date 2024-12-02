@@ -74,13 +74,13 @@ header ul li:hover {
 }
 
 button {
-  background-color: white;
+  background-color: #4498f8;
   border: none;
   padding: 10px 20px;
   border-radius: 50px;
   font-size: 1em;
   font-weight: 600;
-  color: #05309c;
+  color: white;
   font-family: 'Barlow Condensed', sans-serif;
   transition: all 0.3s ease;
   cursor: pointer;
@@ -251,54 +251,46 @@ footer {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 5em;
-  height: 20px;
+ padding: 0 5em; /* Add padding to left and right (2em), no padding on top and bottom */
+  height: auto; /* Remove height: 1em and let content determine height */
   color: white;
   background-color: #4290c8;
 }
 
 .footer-left h3 {
   text-transform: uppercase;
-  font-size: 3em;
-  line-height: 0.1;
-  margin: 0;
-  padding: 0;
-}
-
-.footer-left p {
-  color: white;
-  text-transform: uppercase;
-  font-size: 3.5em;
-  line-height: 0.2em;
-  margin: 0;
+  font-size: 1.5em; /* Font size */
+  line-height: 1.2; /* Adjust line height for more compact text */
+  margin: 0; /* Remove any default margin on the <h3> */
   padding: 0;
 }
 
 .social {
   display: flex;
-  gap: 10px;
-  font-size: 0.2em;
-  margin-top: 30px;
+  gap: 8px; /* Reduce gap between social icons */
+  font-size: 0.5em; /* Icon size */
+  margin: 0; /* Ensure there's no margin causing extra space */
 }
 
+
 .footer-left p.copyright {
-  font-size: 0.9em;
+  font-size: 0.8em; /* Reduce font size of copyright text */
   text-transform: unset;
   font-weight: 200;
-  margin-top: 20px;
+  margin-top: 0; /* Remove margin to decrease space */
 }
 
 .footer-right {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 10px;
-  font-size: 0.9em;
+  gap: 8px; /* Reduce gap between items */
+  font-size: 0.8em; /* Decrease font size slightly */
   font-weight: 300;
 }
 
 .footer-right ul {
-  line-height: 3em;
+  line-height: 2em; /* Adjust line height for tighter spacing */
   list-style: none;
   text-align: right;
 }
