@@ -69,7 +69,7 @@ function Scene() {
               color="#4f6880"
               fillOpacity={0.1}
               letterSpacing={-0.05}>
-              USDX
+              US
             </Text>
           </Billboard>
         </CameraRig>

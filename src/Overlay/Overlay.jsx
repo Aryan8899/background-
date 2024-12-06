@@ -40,7 +40,9 @@ export default function Overlay() {
             <li>Engage</li>
           </ul>
         </div> */}
-        <button>Connect Wallet</button>
+        <a href="https://dapp.usdx.live/" >
+  <button>Connect Wallet</button>
+</a>
       </header>
 
       <div className="main-wrapper">
