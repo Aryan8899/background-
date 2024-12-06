@@ -471,4 +471,3 @@ export default function Dna(props) {
   )
 }
 
-useGLTF.preload('/dna_vr_interactive_animation.glb')
