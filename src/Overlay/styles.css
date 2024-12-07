@@ -96,7 +96,7 @@ button:hover {
 .section {
   width: 100%;
   padding: 20px 0;
-  display: flex;
+  display: fixed;
   align-items: center;
   justify-content: center;
   flex: 1; 
