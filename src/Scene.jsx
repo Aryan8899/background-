@@ -28,7 +28,8 @@ import Robo from './eth'
 
 function Scene() {
   return (
-    <Canvas camera={{ position: [0, 1, 4] }} gl={{ antialias: false, alpha: false }} dpr={1}>
+   
+    <Canvas camera={{ position: [0, 3, 5] }} gl={{ antialias: false, alpha: false }} dpr={1}>
       <color args={['#cee7ff']} attach="background" />
       <Suspense fallback={null}>
         <CameraRig>
@@ -69,7 +70,7 @@ function Scene() {
               color="#4f6880"
               fillOpacity={0.1}
               letterSpacing={-0.05}>
-              US
+              USDX
             </Text>
           </Billboard>
         </CameraRig>
@@ -92,6 +93,7 @@ function Scene() {
         <CameraAnimation />
       </Suspense>
     </Canvas>
+
   )
 }
 
